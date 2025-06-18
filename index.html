@@ -8,17 +8,28 @@
 </head>
 <body>
   <div class="container">
-    <h1>🐱 Cat Lemonade Tycoon 🐱</h1>
+    <h1>🐱 Cat Lemonade Tycoon 🐱<
+
+                                     <img src="https://images.unsplash.com/photo-RP0NyFdVYqM?auto=format&fit=crop&w=600&h=400&q=80" alt="Sheba the Maine Coon" class="cat-img" />
+                                 /h1>
     <div id="status">
       <p>Day: <span id="day">1</span></p>
       <p>Money: $<span id="money">20.00</span></p>
-      <p>Price per Cup: $<span id="priceDisplay">1.00</span></p>
+      <p>Price per Cup: $<span id="priceDisplay">1.00</span></
+              <p>Marketing Spend: $<span id="marketingDisplay">0</span></p>
+                                                                    <p>Weather: <span id="weatherIcon">☀️</span> <span id="weatherText">Sunny</span></p>
+      <p>Day of Week: <span id="dayOfWeek">Monday</span></p>
+                                                              p>
     </div>
 
     <div id="controls">
       <label>
         Set Price:
         <input type="number" id="priceInput" min="0.25" max="10" step="0.25" value="1.00" />
+        <label>
+  Marketing Spend:
+  <input type="number" id="marketingInput" min="0" max="50" step="1" value="0" />
+</label>
       </label>
       <button id="buySupplies">Buy Supplies (-$5)</button>
       <button id="startDay">Start Day</button>
