@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cat Lemonade Tycoon</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🐱 Cat Lemonade Tycoon 🐱</h1>
+    <div id="status">
+      <p>Day: <span id="day">1</span></p>
+      <p>Money: $<span id="money">20.00</span></p>
+      <p>Price per Cup: $<span id="priceDisplay">1.00</span></p>
+    </div>
+
+    <div id="controls">
+      <label>
+        Set Price:
+        <input type="number" id="priceInput" min="0.25" max="10" step="0.25" value="1.00" />
+      </label>
+      <button id="buySupplies">Buy Supplies (-$5)</button>
+      <button id="startDay">Start Day</button>
+    </div>
+
+    <div id="inventory">
+      <h2>Inventory</h2>
+      <p>Cups: <span id="cups">20</span></p>
+      <p>Lemons: <span id="lemons">10</span></p>
+      <p>Sugar: <span id="sugar">10</span></p>
+      <p>Ice: <span id="ice">20</span></p>
+    </div>
+
+    <p id="message">Welcome, Cat‑preneur!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
